@@ -23,4 +23,4 @@ jobs:
       run: docker build -t tirupathi1729/internship-tast-2:latest .
 
     - name: Push Docker image
-      run: docker push tirupathi1729/internship-tast-2:latest
+      run: docker push tirupathi1729/internship-tast-2:latest1
