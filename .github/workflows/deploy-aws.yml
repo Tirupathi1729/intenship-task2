@@ -1,8 +1,12 @@
 name: Deploy React to AWS
 on:
-  push:
-    branches:
-      - "main"
+  workflow_run:
+    workflows: ["CI of Docker image"]
+    types:
+      - completed
+  #push:
+    #branches:
+      #- "main"
 
 jobs:
   deploy:
