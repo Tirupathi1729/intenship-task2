@@ -1,6 +1,6 @@
 version: '3'
 services:
-  my-react-app:
+  internship-task-2:
     build:
       context: .
       dockerfile: Dockerfile
